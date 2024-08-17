@@ -1,0 +1,176 @@
+body{
+background-image: url("/img/other2.jpg");
+background-size: cover; 
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-position: center;
+
+}
+
+/* ============login page====================== */
+/* .mos {
+    position:
+} */
+
+#iconImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px; 
+    width: 10%;
+    height: 20%;
+    /* mix-blend-mode: multiply; */
+}
+
+.heding{
+    font-size: 50px;
+    margin-top: 170px;
+    margin-left: 60px;
+    color:rgb(229, 235, 35);
+    font-weight: 500;
+
+}
+
+.input-group {
+    /* margin-bottom: 15px; */
+}
+
+.input-group input {
+    width: 30%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(209, 184, 158);
+}
+
+button {
+    margin-left: 250px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+button:hover,
+button:focus {
+    color: #ffffff;
+    background: #c5d32a;
+    border: 1px solid #c5d32a;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #c5d32a, 0 0 20px #c5d32a, 0 0 50px #c5d32a, 0 0 100px #c5d32a;
+}
+
+  
+
+
+
+
+.owner{
+
+    background-image: url("/img/cashier.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+
+}
+
+.input-group-owner button{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(91, 72, 52);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 230px;
+
+}
+.input-group-owner button:hover {
+    background-color: rgb(215, 221, 52);
+}
+
+/* .input-text{
+    width: 86.5%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 5px;
+    background-color: rgb(209, 184, 158);
+
+} */
+
+/* ================cashier===================== */
+
+.cashier{
+
+    background-image: url("/img/cashier.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+
+}
+
+.input-group-cashier button{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(91, 72, 52);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 230px;
+
+}
+.input-group-cashier button:hover {
+    background-color: rgb(215, 221, 52);
+}
+
+.input-text{
+    width: 86.5%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 5px;
+    background-color: rgb(209, 184, 158);
+
+}
+
+/* =======================add customer=============== */
+
+.addCus{
+
+    background-image: url("/img/other1.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+
+}
+
+.input-txt{
+    width: 86.5%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    border-radius: 5px;
+    background-color: rgb(209, 184, 158);
+
+}
