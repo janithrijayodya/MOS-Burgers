@@ -34,3 +34,17 @@ function signin(){
 function addCashier(){
     window.location.href ="addCashier.html";
 }
+
+
+// ============================view cashiers===========================================
+
+function viewCashier(){
+    window.location.href ="viewCashierDetails.html";
+}
+
+
+// ================================view customer============================================
+
+function viewCustomer(){
+    window.location.href ="viewCustomerDetails.html";
+}
