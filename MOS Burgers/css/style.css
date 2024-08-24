@@ -313,3 +313,89 @@ h1{
     background-position: center;
     margin-left: 50px;
 }
+
+
+/* ============================make order================================ */
+
+.makeOrder{
+    background-color:rgb(250, 240, 137);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    margin-left: 50px;
+}
+/* 
+#orderImg{
+    margin-top: -15%;
+} */
+
+
+  
+  .imgOrder {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: var(--bg-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(50% - 57px);
+    left: calc(25%);
+  }
+
+ .imgPrevOrders{
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: var(--bg-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(47% - 57px);
+    left: calc(70%);
+ }
+
+ #img{
+    width: 200px;
+ }
+
+ .btnOrder{
+        width: 20%;
+        padding: 10px;
+        background-color:rgb(218, 224, 38);
+        /* border: none; */
+        border-color: #000;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: calc(75% - 25px); 
+        left: calc(28% - 10%); 
+ }
+
+ .btnOrder button:hover {
+    background-color: rgb(215, 221, 52);
+}
+
+.btnPrevOrders{
+    width: 20%;
+    padding: 10px;
+    background-color:rgb(218, 224, 38);
+    /* border:none ; */
+    border-color: #000;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: calc(75% - 25px); 
+    left: calc(73% - 10%); 
+}
+
+.btnPrevOrders button:hover {
+background-color: rgb(215, 221, 52);
+}

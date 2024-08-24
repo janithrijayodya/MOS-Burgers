@@ -48,3 +48,19 @@ function viewCashier(){
 function viewCustomer(){
     window.location.href ="viewCustomerDetails.html";
 }
+
+
+
+
+// ======================== cashier => make order =====================================
+
+function makeOrder(){
+    window.location.href ="makeOrder.html";
+}
+
+//==============================place order=========================
+
+function btnPlaceOrder(){
+    const section = document.getElementById("orderSection");
+  section.scrollIntoView({ behavior: "smooth" });
+}
