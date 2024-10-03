@@ -231,7 +231,7 @@ button:focus {
     color: var(--submain-color);
   }
 
-  #txtAdd{
+  .txtAdd{
     border: none;
     border-radius: 5px;
     padding: 7px;
@@ -398,4 +398,42 @@ h1{
 
 .btnPrevOrders button:hover {
 background-color: rgb(215, 221, 52);
+}
+
+#orderSection{
+    position: absolute;
+    top: calc(30% - 25px); 
+    background-color: rgb(171, 163, 66);
+    width: 95%;
+}
+
+
+#foodItems {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#foodItems  th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+
+#orderTitle{
+    text-align: center;
+}
+
+#bigTable{
+    width: 100%;
+}
+
+#total{
+    text-align: left;
+    color: white;
+}
+
+.tableWrapper {
+    max-height: 400px; 
+    overflow-y: auto;  
+    margin-top: 20px;  
 }
